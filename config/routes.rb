@@ -8,4 +8,6 @@ Rails.application.routes.draw do
     passwords: 'users/passwords',
     confirmations: 'users/confirmations'
   }
+
+  resources :venues
 end
